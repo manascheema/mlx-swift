@@ -201,6 +201,7 @@ let cmlx = Target.target(
         "mlx/mlx/distributed/jaccl/ring.cpp",
         "mlx/mlx/distributed/jaccl/utils.cpp",
     ],
+    publicHeadersPath: "include-framework",
     cSettings: [
         .headerSearchPath("mlx"),
         .headerSearchPath("mlx-c"),
@@ -252,6 +253,8 @@ let package = Package(
             dependencies: [
                 "Cmlx",
                 .product(name: "Numerics", package: "swift-numerics"),
+                .product(name: "ComplexModule", package: "swift-numerics"),
+                .product(name: "RealModule", package: "swift-numerics"),
             ],
             exclude: mlxSwiftExcludes,
             swiftSettings: [
@@ -336,7 +339,7 @@ let package = Package(
             sources: ["CustomFunctionExampleSimple.swift"]
         ),
     ],
-    cxxLanguageStandard: .gnucxx17
+    cxxLanguageStandard: .gnucxx20
 )
 
 if Context.environment["MLX_SWIFT_BUILD_DOC"] == "1"
