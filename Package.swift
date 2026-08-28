@@ -245,7 +245,7 @@ let package = Package(
         // for Complex type
         .package(
             url: "https://github.com/manascheema/swift-numerics",
-            revision: "38e01c0804f3428287b5919c058d1bb09f1be3bb"
+            revision: "38ebf0a210fdc64723ea1c96ba8852d4bd3d70f9"
         )
     ],
     targets: [
