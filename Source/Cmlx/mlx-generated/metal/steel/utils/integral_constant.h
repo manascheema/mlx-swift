@@ -1,5 +1,8 @@
 // Copyright © 2024 Apple Inc.
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+
 #pragma once
 
 #include <metal_stdlib>
@@ -132,3 +135,5 @@ METAL_FUNC constexpr auto sum(T x, Us... us) {
 } // namespace mlx
 
 #pragma METAL internals : disable
+
+#pragma clang diagnostic pop

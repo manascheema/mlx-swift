@@ -1,5 +1,8 @@
 // Copyright © 2024-25 Apple Inc.
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+
 #include "../../../steel/attn/attn.h"
 
 using namespace mlx::steel;
@@ -474,3 +477,5 @@ template <
     Otile.template store<T, 1, 1>(O, params->O_strides[2]);
   }
 }
+
+#pragma clang diagnostic pop
