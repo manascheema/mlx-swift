@@ -3,8 +3,8 @@
 
 #pragma once
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-device.h>
+#include "mlx-api.h"
+#include "mlx-device.h"
 
 namespace mlx::core {
 

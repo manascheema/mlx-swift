@@ -5,7 +5,7 @@
 
 #include <cstdlib>
 
-#include <Cmlx/mlx-api.h>
+#include "mlx-api.h"
 
 namespace mlx::core::allocator {
 

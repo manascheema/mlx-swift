@@ -6,9 +6,9 @@
 #include <complex>
 #include <cstdint>
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-types-complex.h>
-#include <Cmlx/mlx-types-half_types.h>
+#include "mlx-api.h"
+#include "mlx-types-complex.h"
+#include "mlx-types-half_types.h"
 
 namespace mlx::core {
 

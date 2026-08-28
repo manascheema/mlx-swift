@@ -13,7 +13,7 @@ using ::float16_t;
 #else
 
 #define ADD_HALF_BINOPS
-#include <Cmlx/mlx-types-fp16.h>
+#include "mlx-types-fp16.h"
 namespace mlx::core {
 typedef struct _MLX_Float16 float16_t;
 } // namespace mlx::core
@@ -30,7 +30,7 @@ using ::bfloat16_t;
 #else
 
 #define ADD_HALF_BINOPS
-#include <Cmlx/mlx-types-bf16.h>
+#include "mlx-types-bf16.h"
 namespace mlx::core {
 typedef struct _MLX_BFloat16 bfloat16_t;
 } // namespace mlx::core

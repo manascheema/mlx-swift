@@ -3,7 +3,7 @@
 #ifndef MLX_ARRAY_H
 #define MLX_ARRAY_H
 
-#include <Cmlx/mlx-c-string.h>
+#include "mlx-c-string.h"
 
 #include <float.h>
 #include <stdbool.h>
@@ -20,7 +20,7 @@ typedef _Fcomplex mlx_complex64_t;
 typedef float _Complex mlx_complex64_t;
 #endif
 
-#include <Cmlx/mlx-c-half.h>
+#include "mlx-c-half.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -6,11 +6,11 @@
 #include <exception>
 #include <variant>
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-device.h>
-#include <Cmlx/mlx-dtype.h>
-#include <Cmlx/mlx-stream.h>
+#include "mlx-api.h"
+#include "mlx-array.h"
+#include "mlx-device.h"
+#include "mlx-dtype.h"
+#include "mlx-stream.h"
 
 namespace mlx::core {
 

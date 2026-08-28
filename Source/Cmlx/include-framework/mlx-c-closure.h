@@ -6,11 +6,11 @@
 #ifndef MLX_CLOSURE_H
 #define MLX_CLOSURE_H
 
-#include <Cmlx/mlx-c-array.h>
-#include <Cmlx/mlx-c-map.h>
-#include <Cmlx/mlx-c-optional.h>
-#include <Cmlx/mlx-c-stream.h>
-#include <Cmlx/mlx-c-vector.h>
+#include "mlx-c-array.h"
+#include "mlx-c-map.h"
+#include "mlx-c-optional.h"
+#include "mlx-c-stream.h"
+#include "mlx-c-vector.h"
 
 #ifdef __cplusplus
 extern "C" {

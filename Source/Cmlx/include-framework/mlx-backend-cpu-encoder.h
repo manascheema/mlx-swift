@@ -5,8 +5,8 @@
 
 #include <unordered_map>
 
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-scheduler.h>
+#include "mlx-array.h"
+#include "mlx-scheduler.h"
 
 namespace mlx::core::cpu {
 

@@ -3,7 +3,7 @@
 
 #pragma once
 #include <complex>
-#include <Cmlx/mlx-types-half_types.h>
+#include "mlx-types-half_types.h"
 
 namespace mlx::core {
 

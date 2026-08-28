@@ -6,9 +6,9 @@
 #include <tuple>
 #include <vector>
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-utils.h>
+#include "mlx-api.h"
+#include "mlx-array.h"
+#include "mlx-utils.h"
 
 namespace mlx::core {
 

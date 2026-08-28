@@ -5,7 +5,7 @@
 
 #include <stdbool.h>
 
-#include <Cmlx/mlx-c-stream.h>
+#include "mlx-c-stream.h"
 
 #ifdef __cplusplus
 extern "C" {

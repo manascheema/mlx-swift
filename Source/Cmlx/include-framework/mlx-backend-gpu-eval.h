@@ -6,8 +6,8 @@
 #include <future>
 #include <memory>
 
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-stream.h>
+#include "mlx-array.h"
+#include "mlx-stream.h"
 
 namespace mlx::core::gpu {
 

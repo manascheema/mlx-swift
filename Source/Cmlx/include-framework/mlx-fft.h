@@ -5,10 +5,10 @@
 
 #include <variant>
 
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-device.h>
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-utils.h>
+#include "mlx-array.h"
+#include "mlx-device.h"
+#include "mlx-api.h"
+#include "mlx-utils.h"
 
 namespace mlx::core::fft {
 

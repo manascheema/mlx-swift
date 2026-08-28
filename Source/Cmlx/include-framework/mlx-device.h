@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include <Cmlx/mlx-api.h>
+#include "mlx-api.h"
 
 #include <string>
 #include <unordered_map>

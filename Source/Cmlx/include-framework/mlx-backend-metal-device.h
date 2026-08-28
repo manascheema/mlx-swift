@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include <Cmlx/Metal.hpp>
+#include "Metal.hpp"
 #include <functional>
 #include <mutex>
 #include <shared_mutex>
@@ -11,8 +11,8 @@
 #include <unordered_map>
 #include <unordered_set>
 
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-device.h>
+#include "mlx-array.h"
+#include "mlx-device.h"
 
 namespace mlx::core::metal {
 

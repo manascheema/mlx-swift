@@ -211,6 +211,10 @@ let cmlx = Target.target(
         .headerSearchPath("mlx-c"),
         .headerSearchPath("json/single_include/nlohmann"),
         .headerSearchPath("fmt/include"),
+        // fmt 10 predates Xcode 26's stricter C++20 consteval checks. Its
+        // consteval constructors are not valid for all MLX formatter paths,
+        // so retain the package's C++20 mode while using constexpr here.
+        .define("FMT_CONSTEVAL", to: "constexpr"),
         .define("MLX_VERSION", to: "\"0.24.2\""),
         .define("MLX_ENABLE_NAX", to: "1"),
     ],

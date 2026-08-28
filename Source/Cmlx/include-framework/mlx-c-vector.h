@@ -6,8 +6,8 @@
 #ifndef MLX_VECTOR_H
 #define MLX_VECTOR_H
 
-#include <Cmlx/mlx-c-array.h>
-#include <Cmlx/mlx-c-string.h>
+#include "mlx-c-array.h"
+#include "mlx-c-string.h"
 
 #ifdef __cplusplus
 extern "C" {

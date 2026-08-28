@@ -5,9 +5,9 @@
 
 #include <optional>
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-distributed-distributed.h>
-#include <Cmlx/mlx-utils.h>
+#include "mlx-api.h"
+#include "mlx-distributed-distributed.h"
+#include "mlx-utils.h"
 
 namespace mlx::core::distributed {
 

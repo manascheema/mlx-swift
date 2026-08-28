@@ -7,8 +7,8 @@
 #include <set>
 #include <unordered_map>
 #include <variant>
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-array.h>
+#include "mlx-api.h"
+#include "mlx-array.h"
 
 namespace mlx::core {
 
@@ -135,5 +135,5 @@ MLX_API void export_function(
 
 } // namespace mlx::core
 
-#include <Cmlx/mlx-export_impl.h>
+#include "mlx-export_impl.h"
 #endif

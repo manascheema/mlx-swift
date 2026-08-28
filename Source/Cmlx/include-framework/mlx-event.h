@@ -6,7 +6,7 @@
 #include <memory>
 #include <stdexcept>
 
-#include <Cmlx/mlx-stream.h>
+#include "mlx-stream.h"
 
 namespace mlx::core {
 

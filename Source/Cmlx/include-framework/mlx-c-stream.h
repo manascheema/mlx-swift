@@ -5,7 +5,7 @@
 
 #include <stdbool.h>
 
-#include <Cmlx/mlx-c-device.h>
+#include "mlx-c-device.h"
 
 #ifdef __cplusplus
 extern "C" {

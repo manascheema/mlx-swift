@@ -7,7 +7,7 @@
 #include <tuple>
 #include <vector>
 
-#include <Cmlx/mlx-array.h>
+#include "mlx-array.h"
 
 namespace mlx::core {
 

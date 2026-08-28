@@ -7,7 +7,7 @@
 #include <unordered_map>
 #include <variant>
 
-#include <Cmlx/mlx-api.h>
+#include "mlx-api.h"
 
 namespace mlx::core::cu {
 

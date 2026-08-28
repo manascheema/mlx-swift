@@ -8,11 +8,11 @@
 #include <memory>
 #include <vector>
 
-#include <Cmlx/mlx-allocator.h>
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-dtype.h>
-#include <Cmlx/mlx-event.h>
-#include <Cmlx/mlx-small_vector.h>
+#include "mlx-allocator.h"
+#include "mlx-api.h"
+#include "mlx-dtype.h"
+#include "mlx-event.h"
+#include "mlx-small_vector.h"
 
 namespace mlx::core {
 

@@ -1,8 +1,8 @@
 #ifdef __cplusplus
 // Copyright © 2024 Apple Inc.
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-io-load.h>
+#include "mlx-api.h"
+#include "mlx-io-load.h"
 
 #pragma once
 

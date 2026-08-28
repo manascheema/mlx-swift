@@ -5,9 +5,9 @@
 
 #include <type_traits>
 
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-backend-metal-device.h>
-#include <Cmlx/mlx-primitives.h>
+#include "mlx-array.h"
+#include "mlx-backend-metal-device.h"
+#include "mlx-primitives.h"
 
 namespace mlx::core {
 

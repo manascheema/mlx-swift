@@ -6,8 +6,8 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#include <Cmlx/mlx-c-string.h>
-#include <Cmlx/mlx-c-vector.h>
+#include "mlx-c-string.h"
+#include "mlx-c-vector.h"
 
 #ifdef __cplusplus
 extern "C" {

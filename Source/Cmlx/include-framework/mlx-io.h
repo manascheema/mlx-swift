@@ -6,11 +6,11 @@
 #include <unordered_map>
 #include <variant>
 
-#include <Cmlx/mlx-api.h>
-#include <Cmlx/mlx-array.h>
-#include <Cmlx/mlx-io-load.h>
-#include <Cmlx/mlx-stream.h>
-#include <Cmlx/mlx-utils.h>
+#include "mlx-api.h"
+#include "mlx-array.h"
+#include "mlx-io-load.h"
+#include "mlx-stream.h"
+#include "mlx-utils.h"
 
 namespace mlx::core {
 using GGUFMetaData =

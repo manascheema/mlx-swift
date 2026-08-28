@@ -3,7 +3,7 @@
 #ifndef MLX_VERSION_H
 #define MLX_VERSION_H
 
-#include <Cmlx/mlx-c-string.h>
+#include "mlx-c-string.h"
 
 #ifdef __cplusplus
 extern "C" {
